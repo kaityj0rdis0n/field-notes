@@ -19,7 +19,10 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [1099-K reporting](payments/1099-k.md) — the IRS information return for payment platforms, who files, threshold history
 
 ### Software
-- _Nothing here yet._
+- [Property shorthand & exact-match lookup (JS)](software/property-shorthand.md) — why `{ locale }` and `{ lang }` aren't interchangeable, even when they "mean" the same thing
+- [Function interception for debugging](software/function-interception.md) — wrap a global function in a logging shim to see what's actually being called
+- [Testing a deployed branch via header injection](software/staging-build-header-testing.md) — hit production URLs but receive your branch's build via a header
+- [Contract mismatch — fix the caller, not the receiver](software/contract-mismatch-fix-the-caller.md) — when the bug shows up downstream but the cause is upstream
 
 ## Adding entries
 
