@@ -27,6 +27,7 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 **Programming fundamentals**
 - [Function signatures](software/function-signatures.md) — how to use something without reading its body; the contract vs the implementation
 - [Property shorthand & exact-match lookup (JS)](software/property-shorthand.md) — why `{ locale }` and `{ lang }` aren't interchangeable, even when they "mean" the same thing
+- [Semantic versioning (semver)](software/semver.md) — the three numbers in `v1.2.3` and what they promise about what changed
 
 **Debugging**
 - [Function interception for debugging](software/function-interception.md) — wrap a global function in a logging shim to see what's actually being called
