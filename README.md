@@ -23,6 +23,7 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 **React & component fundamentals**
 - [What's a prop? (React)](software/react-props.md) — components are functions, props are their arguments
 - [Prop drilling](software/prop-drilling.md) — when data has to be passed through many layers, and how stores/context sidestep it
+- [Component mounting (React)](software/component-mounting.md) — when a component first hits the DOM and `useEffect([])` fires
 
 **Programming fundamentals**
 - [Function signatures](software/function-signatures.md) — how to use something without reading its body; the contract vs the implementation
