@@ -25,6 +25,12 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [Prop drilling](software/prop-drilling.md) — when data has to be passed through many layers, and how stores/context sidestep it
 - [Component mounting (React)](software/component-mounting.md) — when a component first hits the DOM and `useEffect([])` fires
 
+**State management**
+- [Stores (shared state)](software/stores-shared-state.md) — the shared-object pattern that lets distant components read/write the same value without prop drilling
+- [MobX (state management)](software/mobx.md) — observable / action / observer trio, how MobX auto-wires subscriptions at render time
+- [Pub/sub (publish/subscribe)](software/pub-sub.md) — the publisher-and-subscriber pattern that underlies event listeners, MobX, and most reactive systems
+- [Shared-state population trap](software/shared-state-population-trap.md) — why a setter forgotten in one entry flow silently breaks only that flow's downstream behavior
+
 **Programming fundamentals**
 - [Function signatures](software/function-signatures.md) — how to use something without reading its body; the contract vs the implementation
 - [Property shorthand & exact-match lookup (JS)](software/property-shorthand.md) — why `{ locale }` and `{ lang }` aren't interchangeable, even when they "mean" the same thing
