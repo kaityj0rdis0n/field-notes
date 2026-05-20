@@ -19,10 +19,22 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [1099-K reporting](payments/1099-k.md) — the IRS information return for payment platforms, who files, threshold history
 
 ### Software
+
+**React & component fundamentals**
+- [What's a prop? (React)](software/react-props.md) — components are functions, props are their arguments
+- [Prop drilling](software/prop-drilling.md) — when data has to be passed through many layers, and how stores/context sidestep it
+
+**Programming fundamentals**
+- [Function signatures](software/function-signatures.md) — how to use something without reading its body; the contract vs the implementation
 - [Property shorthand & exact-match lookup (JS)](software/property-shorthand.md) — why `{ locale }` and `{ lang }` aren't interchangeable, even when they "mean" the same thing
+
+**Debugging**
 - [Function interception for debugging](software/function-interception.md) — wrap a global function in a logging shim to see what's actually being called
-- [Testing a deployed branch via header injection](software/staging-build-header-testing.md) — hit production URLs but receive your branch's build via a header
 - [Contract mismatch — fix the caller, not the receiver](software/contract-mismatch-fix-the-caller.md) — when the bug shows up downstream but the cause is upstream
+
+**Testing**
+- [Unit tests](software/unit-tests.md) — what they are, arrange-act-assert structure, how they compare to integration and E2E
+- [Testing a deployed branch via header injection](software/staging-build-header-testing.md) — hit production URLs but receive your branch's build via a header
 
 ## Adding entries
 
