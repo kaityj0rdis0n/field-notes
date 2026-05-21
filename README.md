@@ -35,10 +35,15 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [Function signatures](software/function-signatures.md) — how to use something without reading its body; the contract vs the implementation
 - [Property shorthand & exact-match lookup (JS)](software/property-shorthand.md) — why `{ locale }` and `{ lang }` aren't interchangeable, even when they "mean" the same thing
 - [Semantic versioning (semver)](software/semver.md) — the three numbers in `v1.2.3` and what they promise about what changed
+- [TypeScript `as` casts can lie](software/typescript-as-casts.md) — `as` is an assertion to the compiler with no runtime check; misuse turns into a silent no-op
 
 **Debugging**
 - [Function interception for debugging](software/function-interception.md) — wrap a global function in a logging shim to see what's actually being called
 - [Contract mismatch — fix the caller, not the receiver](software/contract-mismatch-fix-the-caller.md) — when the bug shows up downstream but the cause is upstream
+
+**Architecture & migrations**
+- [Migration parity is the observed contract, not the documented one](software/migration-parity-observed-contract.md) — replacements have to match what consumers actually depend on, not just the spec
+- [Iframe widget analytics — the four-hop pipeline](software/iframe-widget-analytics-pipeline.md) — postMessage → SDK → dataLayer → tag manager; how embeddable widgets reach the host page's analytics
 
 **Testing**
 - [Unit tests](software/unit-tests.md) — what they are, arrange-act-assert structure, how they compare to integration and E2E
