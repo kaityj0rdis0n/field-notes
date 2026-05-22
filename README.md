@@ -41,6 +41,9 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [Function interception for debugging](software/function-interception.md) — wrap a global function in a logging shim to see what's actually being called
 - [Contract mismatch — fix the caller, not the receiver](software/contract-mismatch-fix-the-caller.md) — when the bug shows up downstream but the cause is upstream
 
+**Infrastructure & networking**
+- [Istio / service mesh](software/istio-service-mesh.md) — the "smart network" layer that handles retries, mTLS, routing, and observability across microservices via a sidecar proxy
+
 **Architecture & migrations**
 - [Migration parity is the observed contract, not the documented one](software/migration-parity-observed-contract.md) — replacements have to match what consumers actually depend on, not just the spec
 - [Iframe widget analytics — the four-hop pipeline](software/iframe-widget-analytics-pipeline.md) — postMessage → SDK → dataLayer → tag manager; how embeddable widgets reach the parent page's analytics
