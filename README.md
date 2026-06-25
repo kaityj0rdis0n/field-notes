@@ -44,6 +44,9 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 **Infrastructure & networking**
 - [Istio / service mesh](software/istio-service-mesh.md) — the "smart network" layer that handles retries, mTLS, routing, and observability across microservices via a sidecar proxy
 
+**APIs & GraphQL**
+- [GraphQL introspection](software/graphql-introspection.md) — asking a GraphQL API to describe its own schema instead of guessing the shape
+
 **Architecture & migrations**
 - [Migration parity is the observed contract, not the documented one](software/migration-parity-observed-contract.md) — replacements have to match what consumers actually depend on, not just the spec
 - [Iframe widget analytics — the four-hop pipeline](software/iframe-widget-analytics-pipeline.md) — postMessage → SDK → dataLayer → tag manager; how embeddable widgets reach the parent page's analytics
