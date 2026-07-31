@@ -8,6 +8,7 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 
 ### Git & version control
 - [Fast-forward merges](git/fast-forward.md) — what it means when git "fast-forwards" your branch
+- [Rebase and new SHAs](git/rebase-new-shas.md) — why `git branch -d` says "not fully merged" after a rebase, and when `-D` is safe
 
 ### Accounting & tax
 - [Deferral](accounting-tax/deferral.md) — pushing revenue or expense recognition into a later period
