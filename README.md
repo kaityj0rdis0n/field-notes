@@ -18,6 +18,7 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 
 ### Payments
 - [1099-K reporting](payments/1099-k.md) — the IRS information return for payment platforms, who files, threshold history
+- [Debugging a stuck Apple Pay sheet on the web](payments/apple-pay-web-debugging.md) — why a screen share silently blocks Apple Pay, plus how to triage a frozen sheet from the console
 
 ### Software
 
