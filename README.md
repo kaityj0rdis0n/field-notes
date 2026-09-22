@@ -54,6 +54,7 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [Iframe widget analytics — the four-hop pipeline](software/iframe-widget-analytics-pipeline.md) — postMessage → SDK → dataLayer → tag manager; how embeddable widgets reach the parent page's analytics
 - [DOM CustomEvents — firing your own signals on a page](software/dom-custom-events.md) — how to create and dispatch custom browser events, and why they're used as the analytics delivery format on the parent page
 - [The silent registration gap](software/silent-registration-gap.md) — writing an event handler is not the same as registering it; the bug is silent and only surfaces when tracking stops working
+- [How browsers decide what embedded content is allowed to do](software/frame-permissions-delegation.md) — powerful features flow down the frame tree; a cross-origin iframe gets them only if the host page delegates them
 - [Arrow functions and `this` binding in classes](software/arrow-functions-this-binding.md) — why regular methods break when passed as callbacks, and when to use arrow function class fields instead
 
 **Testing**
