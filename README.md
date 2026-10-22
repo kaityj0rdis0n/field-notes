@@ -71,6 +71,3 @@ See [template.md](template.md) for the format. Short rules of thumb:
 - Include a small example or diagram when it helps.
 - Link to other entries with relative paths.
 
-## Companion repo
-
-There's a private companion repo for stuff that's specific to my work (Universe / TM) and shouldn't be public.
