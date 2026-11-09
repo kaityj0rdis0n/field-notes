@@ -24,6 +24,7 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 
 **React & component fundamentals**
 - [What's a prop? (React)](software/react-props.md) — components are functions, props are their arguments
+- [What's a prop value?](software/prop-values.md) — the prop is the slot, the value is what fills it; any kind of data, from anywhere, checked against an allowed list
 - [Prop drilling](software/prop-drilling.md) — when data has to be passed through many layers, and how stores/context sidestep it
 - [Component mounting (React)](software/component-mounting.md) — when a component first hits the DOM and `useEffect([])` fires
 
@@ -38,6 +39,10 @@ Each entry is a self-contained markdown file in a topic folder. Entries are writ
 - [Property shorthand & exact-match lookup (JS)](software/property-shorthand.md) — why `{ locale }` and `{ lang }` aren't interchangeable, even when they "mean" the same thing
 - [Semantic versioning (semver)](software/semver.md) — the three numbers in `v1.2.3` and what they promise about what changed
 - [TypeScript `as` casts can lie](software/typescript-as-casts.md) — `as` is an assertion to the compiler with no runtime check; misuse turns into a silent no-op
+- [Case styles: kebab, camel, Pascal, snake](software/naming-conventions-case-styles.md) — which casing goes where, and why a prop name is camelCase while its value is kebab-case
+
+**Design systems & design-to-code**
+- [Design node IDs in code comments](software/design-node-ids-in-code-comments.md) — the `1234:5678` in a Figma link, and why it belongs next to the code built from it
 
 **Debugging**
 - [Function interception for debugging](software/function-interception.md) — wrap a global function in a logging shim to see what's actually being called
